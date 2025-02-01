@@ -57,7 +57,7 @@ def main():
             progress_bar = st.progress(0)
             frame_placeholder = st.empty()
             
-            cap = cv2.VideoCapture(-1)
+            cap = cv2.VideoCapture(1)
             
             for i in range(100):
                 ret, frame = cap.read()
@@ -88,7 +88,7 @@ def main():
         
         if st.button("Start Voting"):
             frame_placeholder = st.empty()
-            cap = cv2.VideoCapture(-1)
+            cap = cv2.VideoCapture(1)
             
             ret, frame = cap.read()
             if ret:
