@@ -1,6 +1,6 @@
 flask==3.1.0
 flask-cors==5.0.0
-numpy==2.2.1
+numpy==1.8.0
 opencv-python-headless==4.8.1.78
 scikit-learn==1.6.1
 pymongo==4.11
